@@ -43,7 +43,7 @@ ZSH_THEME=""
 #plugins=(git osx pylint python scala screen)
 [[ "$(uname)" != "Darwin" ]] && DISABLE_CORRECTION="true"
 
-plugins=(autojump colored-man git pip sbt scala zsh-syntax-highlighting)
+plugins=(autojump colored-man-pages git pip sbt scala zsh-syntax-highlighting)
 [[ "$(uname)" == "Darwin" ]] && plugins=(brew osx ${plugins})
 
 source $ZSH/oh-my-zsh.sh

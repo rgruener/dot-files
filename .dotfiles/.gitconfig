@@ -1,6 +1,6 @@
 [user]
-	email = samuelr@spotify.com
-	name = Samuel Rozenberg
+	email = rjgruener@gmail.com
+	name = Robbie Gruener
 [color]
 	ui = auto
 [core]
@@ -28,5 +28,3 @@
 	rw = rewind
 	sh = show HEAD
 	st = status
-[url "samuelr@git.spotify.net"]
-     insteadof = git@git.spotify.net

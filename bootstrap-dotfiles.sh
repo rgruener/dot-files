@@ -32,7 +32,7 @@ _git() {
     mkdir -p src/github
     cd src/github
     git clone https://github.com/SamRozen/utils.git
-    git clone https://github.com/SamRozen/dot-files.git
+    git clone https://github.com/rgruener/dot-files.git
     cd ${HOME}
     ln -s ~/src/github/utils bin
     ln -s ~/src/github/dot-files/.dotfiles

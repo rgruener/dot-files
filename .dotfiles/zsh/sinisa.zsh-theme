@@ -45,9 +45,7 @@ precmd() {
 
 local mcolor="%{$fg_bold[cyan]%}"
 [[ "$(hostname)" =~ '.*\.local$' ]] && mcolor="%{$fg_bold[green]%}"
-[[ "$(hostname)" =~ '.*\.spotify\.net$' ]] && mcolor="%{$fg_bold[red]%}"
-[[ "$(hostname)" =~ '.*\.d\.spotify\.net$' ]] && mcolor="%{$fg_bold[magenta]%}"
-[[ "$(hostname)" =~ '.*\.office\.spotify\.net$' ]] && mcolor="%{$fg_bold[green]%}"
+[[ "$(hostname)" =~ '.*\.domain\.net$' ]] && mcolor="%{$fg_bold[red]%}"
 
 setopt prompt_subst
 if [[ "$(uname -s)" == "Darwin" ]] ;

@@ -17,6 +17,7 @@
 	ci = commit
 	co = checkout
 	cp = cherry-pick
+	aa = commit --amend --no-edit
 	dc = diff --cached
 	l1 = log --format='%C(yellow)%h%C(reset) -%C(red bold)%d%C(reset) %s %C(green)(%cr) %C(cyan)<%an>%C(reset)'
 	l2 = log --format='%C(yellow)commit %H%C(reset)%C(red bold)%d%C(reset)%nAuthor: %C(cyan)%an <%ae>%C(reset)%nDate:   %C(green)%cd%C(reset)%n%n%w(,4,4)%s%n' --date=local

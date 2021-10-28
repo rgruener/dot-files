@@ -3,7 +3,7 @@
 # bash -c "$(curl -fsSL https://raw.github.com/samuelr/dot-files/master/.dotfiles/bootstrap-dotfiles.sh)"
 
 # also zsh (with --disable-etcdir)
-BREWS="ack autojump ctags git macvim python tmux tree wget"
+BREWS="ack autojump ctags git macvim tree wget"
 
 # Debian/Ubuntu:
 # build-essential - for GCC, GNU Make, etc.
@@ -31,7 +31,7 @@ _git() {
     cd ${HOME}
     mkdir -p src/github
     cd src/github
-    git clone https://github.com/SamRozen/utils.git
+    git clone https://github.com/rgruener/utils.git
     git clone https://github.com/rgruener/dot-files.git
     cd ${HOME}
     ln -s ~/src/github/utils bin

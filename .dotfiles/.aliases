@@ -9,4 +9,4 @@ alias ta='tmux a'
 alias gfp='git push -f origin "$(git rev-parse --abbrev-ref HEAD)"'
 alias sed='gsed'
 alias java11='sdk default java 11.0.15-zulu'
-alias java17='sdk default java 17.0.4-zulu
+alias java17='sdk default java 17.0.4-zulu'

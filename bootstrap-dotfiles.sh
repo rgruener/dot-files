@@ -37,7 +37,14 @@ _git() {
     ln -s ~/src/github/utils bin
     ln -s ~/src/github/dot-files/.dotfiles
     ln -s ~/.dotfiles/.aliases
-    ln -s ~/.dotfiles/.gitconfig
+
+    # Handle .gitconfig - append if exists, otherwise create symlink
+    if [ -f ~/.gitconfig ]; then
+        echo "Appending ~/.dotfiles/.gitconfig to existing ~/.gitconfig"
+        cat ~/.dotfiles/.gitconfig >> ~/.gitconfig
+    else
+        ln -s ~/.dotfiles/.gitconfig
+    fi
 }
 
 _zsh() {
